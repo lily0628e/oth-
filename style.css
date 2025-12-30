@@ -1,0 +1,356 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color:black}
+ul{list-style: none;}
+img{vertical-align: top; border:0;}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+p{
+    color: #5f5f5f;
+    font-size: 11pt;
+}
+#header{
+    line-height: 30px;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    background-color: #fff;
+    padding: 10px 0;
+    opacity: 0.8;
+}
+#header .headertext{
+    width: 1350px;
+    margin: 0 auto;
+}
+#header .headertext .logobox{
+    float: left;
+}
+#header .headertext .logobox img{
+    width: 70px;
+}
+#header .headertext ul{
+    float: left;
+    margin-left: 400px;
+}
+#header .headertext .menubox{
+    color: gray;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    float: right;
+    letter-spacing: 22px;
+}
+#header .headertext ul li{
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+#header .talk{
+    margin: 800px 0 0 1700px;
+    position: fixed;
+}
+#section{
+    margin: 0 auto;
+}
+#section .bannertop{
+    height: 50px;
+    background-color: #fff;
+}
+#section .banner{
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    height: 1100px;
+    color: aliceblue;
+    padding-top: 80px;
+}
+#section .banner .bannertext .topbox{
+    width: 140px;
+    background-color: rgb(37, 37, 37);
+    padding: 10px 0 15px 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+#section .banner .bannertext .topbox .text{
+    float: left;
+}
+#section .banner .bannertext .topbox ul{
+    float: left;
+}
+#section .banner .bannertext .topbox ul li{
+    float: left;
+    width: 6px;
+    border-bottom: 2px solid gray;
+    margin-left: 5px;
+    margin-top: 18px;
+}
+#section .banner .bannertext .bottombox{
+    width: 140px;
+    background-color: rgb(37, 37, 37);
+    padding: 10px 0 15px 30px;
+    margin: 0 auto;
+    margin-top: 890px;
+    text-align: center;
+}
+#section .banner .bannertext .bottombox .text{
+    float: left;
+}
+#section .banner .bannertext .bottombox ul{
+    float: left;
+}
+#section .banner .bannertext .bottombox ul li{
+    float: left;
+    width: 6px;
+    border-bottom: 2px solid gray;
+    margin-left: 5px;
+    margin-top: 18px;
+}
+#section .sec1{
+    margin-top: 20px;
+    text-align: center;
+}
+#section .sec1 .textbar1{
+    margin-bottom: 20px;
+    font-size: 20pt;
+    font-weight: 200;
+}
+#section .sec1 .newbox{
+    margin-top: 20px;
+    width: 1500px;
+    margin: 0 auto;
+}
+#section .sec1 .newbox>div{
+    font-size: 20pt;
+    float: left;
+}
+#section .sec1 .newbox .newdri1{
+    margin: 265px 30px 0 10px;
+}
+#section .sec1 .newbox .newboxes>div{
+    width: 450px;
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border: 2px solid #adadad;
+    border-radius: 10px;
+    float: left;
+    box-sizing: border-box; 
+    transition: all 0.3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+#section .sec1 .newbox .newboxes .newbox1{
+    background-image: url(new1.jpg);
+}
+#section .sec1 .newbox .newboxes .newbox1:hover{
+    background-size: 120%;
+}
+#section .sec1 .newbox .newboxes>div .sec-product{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff98;
+    opacity: 0;
+    padding: 250px 5px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+#section .sec1 .newbox .newboxes>div:hover>.sec-product{
+    opacity: 1;
+}
+#section .sec1 .newbox .newboxes>div .sec-product .product-name{
+    font-size: 18pt;
+    margin-bottom: 20px;
+}
+#section .sec1 .newbox .newboxes>div .sec-product .product-text{
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+#section .sec1 .newbox .newboxes>div .sec-product .price{
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+#section .sec1 .newbox .newboxes .newbox2{
+    background-image: url(new2.jpg);
+}
+#section .sec1 .newbox .newboxes .newbox2:hover{
+    background-size: 120%;
+}
+#section .sec1 .newbox .newboxes .newbox3{
+    background-image: url(new3.jpg);
+}
+#section .sec1 .newbox .newboxes .newbox3:hover{
+    background-size: 120%;
+}
+#section .sec1 .newbox .newdri2{
+    font-size: 20pt;
+    margin: 265px 0px 0px 30px;
+}
+#section .sec2 .sixbox{
+    width: 1500px;
+    margin: 0 auto;
+}
+#section .sec2 .sixbox>div{
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18pt;
+    font-size: 20pt;
+}
+#section .sec2 .sixbox .sixdri1{
+    margin: 140px 30px 0 10px;
+}
+#section .sec2 .sixbox .sixboxes>div{
+    width: 225px;
+    height: 290px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border: 1px solid #adadad;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+#section .sec2 .sixbox .sixboxes>div .sec-product{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff98;
+    opacity: 0;
+    padding: 80px 5px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+#section .sec2 .sixbox .sixboxes>div:hover>.sec-product{
+    opacity: 1;
+}
+#section .sec2 .sixbox .sixboxes>div .sec-product .product-name{
+    font-size: 18pt;
+    margin-bottom: 20px;
+}
+#section .sec2 .sixbox .sixboxes>div .sec-product .product-text{
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+#section .sec2 .sixbox .sixboxes>div .sec-product .price{
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+#section .sec2 .sixbox .sixboxes .sixbox1{
+    background-image: url(six1.jpg);
+}
+#section .sec2 .sixbox .sixboxes .sixbox1:hover{
+    background-size: 120%;
+}
+#section .sec2 .sixbox .sixboxes .sixbox2{
+    background-image: url(six2.jpg);
+}
+#section .sec2 .sixbox .sixboxes .sixbox2:hover{
+    background-size: 120%;
+}
+#section .sec2 .sixbox .sixboxes .sixbox3{
+    background-image: url(six3.jpg);
+}
+#section .sec2 .sixbox .sixboxes .sixbox3:hover{
+    background-size: 120%;
+}
+#section .sec2 .sixbox .sixboxes .sixbox4{
+    background-image: url(six4.jpg);
+}
+#section .sec2 .sixbox .sixboxes .sixbox4:hover{
+    background-size: 120%;
+}
+#section .sec2 .sixbox .sixboxes .sixbox5{
+    background-image: url(six5.jpg);
+}
+#section .sec2 .sixbox .sixboxes .sixbox5:hover{
+    background-size: 120%;
+}
+#section .sec2 .sixbox .sixboxes .sixbox6{
+    background-image: url(six6.jpg);
+}
+#section .sec2 .sixbox .sixboxes .sixbox6:hover{
+    background-size: 120%;
+}
+#section .sec2 .sixbox .sixdri2{
+    margin: 140px 0px 0 30px;
+}
+#section .sec2 .textbar2{
+    margin: 30px 0 50px 0;
+    text-align: center;
+}
+#section .sec3{
+    width: 1500px;
+    margin: 0 auto;
+}
+#section .sec3 .plbox>div{
+    width: 385px;
+    height: 580px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-sizing: border-box;
+    margin-left: 70px;
+}
+#section .sec3 .plbox .plbox1{
+    background-image: url(pl1.jpg);
+    margin-right: 30px;
+}
+#section .sec3 .plbox .plbox2{
+    background-image: url(pl2.jpg);
+    margin-right: 30px;
+}
+#section .sec3 .plbox .plbox3{
+    background-image: url(pl3.jpg);
+}
+#section .sec4{
+    text-align: center;
+    margin: 50px 0;
+}
+#section .sec5{
+    width: 1500px;
+    margin: 0 auto;
+}
+#section .sec5 .asmr>div{
+    width: 385px;
+    height: 580px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-sizing: border-box;
+    margin-left: 70px;
+}
+#section .sec5 .asmr .asmrbox1{
+    background-image: url(asmr1.jpg);
+    margin-right: 30px;
+}
+#section .sec5 .asmr .asmrbox2{
+    background-image: url(asmr2.jpg);
+    margin-right: 30px;
+}
+#section .sec5 .asmr .asmrbox3{
+    background-image: url(asmr3.jpg);
+}
+#footer{
+    margin: 0 auto;
+    width: 1355px;
+    padding: 50px 0 70px 0;
+    font-size: 10pt;
+    color: #5f5f5f;
+}
+#footer .f-left{
+    float: left;
+}
+#footer .f-left img{
+    width: 100px;
+}
+#footer .f-right{
+    float: right;
+}
